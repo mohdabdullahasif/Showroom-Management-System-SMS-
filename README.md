@@ -11,14 +11,6 @@ The system models real-world dealership operations, featuring multi-role authent
 
 ---
 
-## Repository Topics (GitHub Tags)
-
-```text
-java, data-structures, algorithms, avl-tree, hashmap, doubly-linked-list, queue, circular-queue, showroom-management, inventory-management, oop, cli-application
-```
-
----
-
 ## Table of Contents
 1. [Key Highlights & DSA Implementations](#-key-highlights--dsa-implementations)
 2. [Data Structure Complexity Analysis](#-data-structure-complexity-analysis)
