@@ -1,4 +1,4 @@
-# 🚗 Nova Showroom Management System (SMS) — DSA Edition
+# Showroom Management System (SMS) — DSA Edition
 
 [![Java](https://img.shields.io/badge/Java-17%2B-orange.svg?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
 [![Data Structures](https://img.shields.io/badge/DSA-Custom%20Implementations-blue.svg?style=for-the-badge)](./DSA/datastructures)
@@ -11,7 +11,7 @@ The system models real-world dealership operations, featuring multi-role authent
 
 ---
 
-## 📌 Repository Topics (GitHub Tags)
+## Repository Topics (GitHub Tags)
 
 ```text
 java, data-structures, algorithms, avl-tree, hashmap, doubly-linked-list, queue, circular-queue, showroom-management, inventory-management, oop, cli-application
@@ -19,7 +19,7 @@ java, data-structures, algorithms, avl-tree, hashmap, doubly-linked-list, queue,
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 1. [Key Highlights & DSA Implementations](#-key-highlights--dsa-implementations)
 2. [Data Structure Complexity Analysis](#-data-structure-complexity-analysis)
 3. [System Architecture](#-system-architecture)
@@ -31,7 +31,7 @@ java, data-structures, algorithms, avl-tree, hashmap, doubly-linked-list, queue,
 
 ---
 
-## 🧠 Key Highlights & DSA Implementations
+## Key Highlights & DSA Implementations
 
 Rather than relying on ready-made Java collections for business operations, this project implements core computer science data structures from scratch inside the [`datastructures`](./DSA/datastructures/) package:
 
@@ -61,7 +61,7 @@ Rather than relying on ready-made Java collections for business operations, this
 
 ---
 
-## ⚡ Data Structure Complexity Analysis
+## Data Structure Complexity Analysis
 
 | Data Structure | Role in System | Access / Search | Insertion | Deletion | Space Complexity |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -73,7 +73,7 @@ Rather than relying on ready-made Java collections for business operations, this
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ### Class & Domain Model
 
@@ -160,7 +160,7 @@ classDiagram
 
 ---
 
-## 🔑 Role-Based Portals & Features
+## Role-Based Portals & Features
 
 ```mermaid
 graph TD
@@ -183,23 +183,23 @@ graph TD
     D --> D4[Audit Invoices & Financial Summary]
 ```
 
-### 👤 Customer Experience
+### Customer Experience
 * **Registration & Secure Login:** Account creation with duplicate-username validation.
 * **Interactive Shopping Cart:** Real-time total calculation, item addition, and removal.
 * **Card Payment & Invoicing:** Generates timestamped order records passed directly into the fulfillment queue.
 
-### 👔 Employee Operations
+### Employee Operations
 * **Inventory Inquiry:** Instant ID lookups via `HashMap`.
 * **Queue Fulfillment:** Dequeues customer orders and processes pending transaction requests.
 
-### 🛡️ Manager Command Center
+### Manager Command Center
 * **Inventory Control:** Add new models, delete obsolete units, and dynamically update prices (which re-indexes and rebalances the AVL Tree).
 * **HR & Staff Management:** Add and manage sales consultants within the doubly-linked employee list.
 * **Full Financial Auditing:** Comprehensive invoice breakdown with total revenue calculations.
 
 ---
 
-## 📁 Directory Layout
+## Directory Layout
 
 ```
 .
@@ -230,7 +230,7 @@ graph TD
 
 ---
 
-## 🚀 Compilation & Execution
+## Compilation & Execution
 
 ### Prerequisites
 * **Java Development Kit (JDK) 8 or higher** (JDK 17+ recommended).
@@ -252,7 +252,7 @@ java UsingShowroom
 
 ---
 
-## 🔐 Demo Accounts & Test Credentials
+## Demo Accounts & Test Credentials
 
 The system comes pre-seeded with sample data for immediate testing:
 
@@ -268,7 +268,7 @@ The system comes pre-seeded with sample data for immediate testing:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Portal | Screenshot Preview |
 | :--- | :--- |
@@ -281,5 +281,5 @@ The system comes pre-seeded with sample data for immediate testing:
 
 ---
 
-## 📄 License
+## License
 This project was developed for academic and educational evaluation in **Data Structures and Algorithms (DSA Theory & Lab)**. Free to study, reference, and build upon.
